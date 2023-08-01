@@ -100,7 +100,8 @@ button {
     }
 
     .container-flex {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
     }
     
     #sobre-a-loja img {
@@ -120,7 +121,8 @@ button {
     }
 
     .container-flex {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     #sobre-a-loja img {
@@ -129,7 +131,7 @@ button {
     }
 
     .lista-tenis li {
-        grid-template-columns: repeat(2, 25%);
+        grid-template-columns: repeat(2, 49%);
         max-width: 100%;
     }
 }
