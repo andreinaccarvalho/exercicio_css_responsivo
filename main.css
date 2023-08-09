@@ -109,11 +109,6 @@ button {
         max-width: 100%;
         margin-bottom: 32px;
     }
-
-    .lista-tenis li {
-        text-align: center;
-        max-width: 100%;
-    }
 }
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
@@ -132,9 +127,10 @@ button {
     }
 
     .lista-tenis {
-        display: grid;
-        grid-template-columns: repeat (2, 1fr);
-        gap: 20px;
         max-width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 2%;
+        row-gap: 5%;
     }
 }
