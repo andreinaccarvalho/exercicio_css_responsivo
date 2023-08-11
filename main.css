@@ -100,14 +100,34 @@ button {
         max-width: 90%;
     }
 
+    header nav li {
+        display: inline-block;
+        margin: 4px 0;
+    }
+
     .container-flex {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .products {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    li > button {
+        max-width: 100%;
+        width: 100%;
     }
     
     #sobre-a-loja img {
         max-width: 100%;
         margin-bottom: 32px;
+        display: block;
+        margin: 0 auto;
     }
 }
 
@@ -119,6 +139,14 @@ button {
     .container-flex {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .products {
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 
     #sobre-a-loja img {
