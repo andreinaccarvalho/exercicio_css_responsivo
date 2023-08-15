@@ -149,6 +149,10 @@ button {
         text-align: center;
     }
 
+    li > button {
+        max-width: 100%;
+    }
+
     #sobre-a-loja img {
         max-width: 100%;
         margin-bottom: 32px;
